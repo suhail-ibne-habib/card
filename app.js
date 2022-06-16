@@ -17,10 +17,6 @@ $('.cards').slick({
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
-          autoplay: true,
-          focusOnSelect: false,
-          pauseOnHover: false,
-          pauseOnClick: false,
         }
       },
       {
@@ -28,21 +24,13 @@ $('.cards').slick({
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
-          autoplay: true,
-          focusOnSelect: false,
-          pauseOnHover: false,
-          pauseOnClick: false,
         }
       },
       {
         breakpoint: 480,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
-          autoplay: true,
-          focusOnSelect: false,
-          pauseOnHover: false,
-          pauseOnClick: false,
         }
       }
     ]
