@@ -17,20 +17,29 @@ $('.cards').slick({
         settings: {
           slidesToShow: 3,
           slidesToScroll: 3,
+          focusOnSelect: false,
+          pauseOnHover: false,
+          pauseOnClick: false,
         }
       },
       {
         breakpoint: 600,
         settings: {
           slidesToShow: 2,
-          slidesToScroll: 2
+          slidesToScroll: 2,
+          focusOnSelect: false,
+          pauseOnHover: false,
+          pauseOnClick: false,
         }
       },
       {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1
+          slidesToScroll: 1,
+          focusOnSelect: false,
+          pauseOnHover: false,
+          pauseOnClick: false,
         }
       }
     ]
